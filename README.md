@@ -1,6 +1,6 @@
 # APLCart MCP Server
 
-A Model Context Protocol (MCP) server that exposes the APLCart idiom collection with semantic search capabilities. APLCart is a searchable collection of APL expressions and their descriptions.
+A Model Context Protocol (MCP) server that exposes the [APLCart](https://aplcart.info) idiom collection with semantic search capabilities. APLCart is a searchable collection of APL expressions with descriptions.
 
 ## Features
 
