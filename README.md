@@ -24,7 +24,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Clone the repository
 git clone <repository-url>
-cd ac2jsonl
+cd ac-mcp
 
 # Install dependencies
 uv sync
