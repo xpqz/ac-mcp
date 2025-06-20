@@ -1,0 +1,20 @@
+[project]
+name = "ac-mcp"
+version = "0.1.0"
+description = "APLCart MCP server with semantic search capabilities"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31.0",
+    "mcp>=1.0.0",
+    "openai>=1.0.0",
+    "faiss-cpu>=1.7.4",
+    "numpy>=1.24.0",
+    "tqdm>=4.66.0",
+]
+
+[project.scripts]
+aplcart2json = "aplcart2json:main"
+aplcart-mcp = "aplcart_mcp_semantic:main"
+generate-embeddings = "generate_embeddings:main"
+search-embeddings = "search_embeddings:main"
