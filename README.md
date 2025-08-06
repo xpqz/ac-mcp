@@ -100,11 +100,16 @@ Add this to your Claude Desktop configuration file:
   "mcpServers": {
     "aplcart": {
       "command": "uv",
-      "args": ["run", "python", "YOUR/PATH/HERE/ac-mcp/aplcart_mcp_semantic.py"],
-      "cwd": "YOUR/PATH/HERE/ac-mcp",
+      "args": [
+        "run",
+        "--directory",
+        "YOUR/PATH/HERE/ac-mcp",
+        "python",
+        "aplcart_mcp_semantic.py"
+      ],
       "env": {
-        "OPENAI_API_KEY": "your-api-key-here",
-        "APLCART_USE_DB": "1"
+        "APLCART_USE_DB": "1",
+        "OPENAI_API_KEY": "${OPENAI_API_KEY}"
       }
     }
   }

@@ -4,8 +4,10 @@
       "command": "uv",
       "args": [
         "run",
+        "--directory",
+        "YOUR/PATH/HERE/ac-mcp",
         "python",
-        "YOUR/PATH/HERE/ac-mcp/aplcart_mcp_semantic.py"
+        "aplcart_mcp_semantic.py"
       ],
       "env": {
         "APLCART_USE_DB": "1",
